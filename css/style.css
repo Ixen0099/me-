@@ -1,0 +1,111 @@
+body{
+  color: red;
+background-image: url(https://s15.postimg.cc/66ikrdmgr/security_img1.jpg);
+ background-size: 100% 100%;
+  background-position: cover;
+background-repeat: no-repeat;}
+.nav-link{
+  color: green;
+ 
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  opacity: 0.5;
+  margin-left: 90%;
+    margin-right: auto;
+  margin-top: -15%;
+  margin-bottom: 0%;
+}
+
+
+
+#how-it-works{
+  prosition: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+#how-it-works iframe{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;}
+  
+  #motorola, #netgear, #nest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    
+    .level {
+      background-color: #ddd;
+      color: black;
+      padding: 15px 0;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    
+    h2 {
+      margin-top: 15px;
+    }
+    
+    ol {
+      margin: 15px 0;
+      
+      li { padding: 5px 0; }
+    }
+    
+    button {
+      border: 0;
+      margin: 15px 0;
+      background-color: #f1c40f;
+      font-weight: 400;
+      
+      &:hover {
+        background-color: orange;
+        transition: background-color 1s;
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    flex-direction: column;}
+    
+    #motorola, #netgear, #nest { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+  
+
+
+footer{
+  color: white;
+  position: relative;
+    left: 0;
+    bottom: 0;
+  margin-top: 80px;
+  
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+}
+
